@@ -15,14 +15,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 2 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/register.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 3 commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +240,7 @@
       <workItem from="1615457384771" duration="2110000" />
       <workItem from="1615691724079" duration="15940000" />
       <workItem from="1615855154847" duration="7726000" />
-      <workItem from="1616315547616" duration="10256000" />
+      <workItem from="1616315547616" duration="10405000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615721643853</created>
@@ -333,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615735986872</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HW week 3 commit">
+      <created>1616332007147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616332007147</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +355,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="HW week 2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW week 2 commit" />
+    <MESSAGE value="HW week 3 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW week 3 commit" />
   </component>
 </project>
