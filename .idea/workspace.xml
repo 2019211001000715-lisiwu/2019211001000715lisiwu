@@ -15,9 +15,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 3 commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,6 +183,7 @@
       <workItem from="1615457384771" duration="2110000" />
       <workItem from="1615691724079" duration="15029000" />
       <workItem from="1616335736643" duration="383000" />
+      <workItem from="1616336146034" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615721643853</created>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616334145823</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW week 3 commit">
+      <created>1616336373293</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616336373293</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,8 +284,8 @@
     <MESSAGE value="first" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="HW week 2 commit" />
-    <MESSAGE value="HW week 3 commit" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="HW week 3 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW week 3 commit" />
   </component>
 </project>
