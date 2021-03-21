@@ -10,21 +10,19 @@
 <head>
     <title>Title</title>
     <style type="text/css">
-        div{text-align: center;color: black;font: size:20px;
+        div{text-align: center;color: black;font-size:20px ;
         background-color: aqua;width: 400px;height: 200px;}
     </style>
 </head>
 <body>
-<form>
-    <div>
-    username :<input type="text" name="username" required><br/>
-    password :<input type="password" name="password" required minlength="8"><br/>
-    email    :<input type="email" name="email" required><br/>
-    <input name="sex" type="radio" value="Male"/>Male
-    <input name="sex" type="radio" value="Female"/>Female<br/>
-    birthdate:<input type="datetime-local" name="yyyy-mm-dd" required><br/>
-    <input name="b1" type="submit" id="b1" value="Register" required><br/>
-    </div>
+<form method="post" action="register"><!--within doPost() in servlet-->
+    username :<input type="text" name="username"/><br/>
+    password :<input type="" name="password"/><br/>
+    email    :<input type="email"password name="email"/><br/>
+    gender   :<input type="radio" name="gender"value="male" >Male<input type="radio" name="gender"value="female">Female<br/>
+    <!--if name is some it make array-->
+    birthdate:<input type="text" name="birthdate"><br/>
+    <input type="submit" value="Register"/>
 </form>
 </body>
 </html>
