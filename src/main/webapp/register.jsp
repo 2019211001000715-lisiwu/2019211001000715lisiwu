@@ -15,14 +15,13 @@
     </style>
 </head>
 <body>
-<form method="post" action="register"><!--within doPost() in servlet-->
-    username :<input type="text" name="username"/><br/>
-    password :<input type="" name="password"/><br/>
-    email    :<input type="email"password name="email"/><br/>
-    gender   :<input type="radio" name="gender"value="male" >Male<input type="radio" name="gender"value="female">Female<br/>
-    <!--if name is some it make array-->
-    birthdate:<input type="text" name="birthdate"><br/>
-    <input type="submit" value="Register"/>
+<form method="post" action="register">
+    Username : <input type="text" name="username" required/><br/>
+    Password : <input type="password" name="password" required minlength="8"/><br/>
+    Email : <input type="email" name="email" required/><br/>
+    Gender: <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br/>
+    Date of Birth : <input type="text name=" name="birthDate"><br/>
+    <input type="submit" value="Register"/><br/>
 </form>
 </body>
 </html>
