@@ -13,10 +13,6 @@
         <servlet-class>com.Lisiwu.week3.demo.LifeCycleServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>com.Lisiwu.week3.demo.RegisterServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.Lisiwu.week5.demo.LoginServlet</servlet-class>
     </servlet>
