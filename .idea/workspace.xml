@@ -15,28 +15,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 4 commit">
-      <change afterPath="$PROJECT_DIR$/.idea/a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/logo.jpg" afterDir="false" />
+    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 5 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/a.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2019211001000715Lisiwu.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/2019211001000715lisiwu_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/2019211001000715lisiwu_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019211001000715lisiwu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/a.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lisiwu2019211001000715/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lisiwu2019211001000715/RegisterServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Myjsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Myjsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lisiwu/week3/demo/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/week3/demo/RegisterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lisiwu2019211001000715/RegisterServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/Myjsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/Myjsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Lisiwu/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Lisiwu/week3/demo/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/classes/com/Lisiwu/week3/demo/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/classes/com/Lisiwu/week3/demo/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,19 +101,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.63" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -328,7 +306,8 @@
       <workItem from="1617627518419" duration="3407000" />
       <workItem from="1617632846766" duration="27000" />
       <workItem from="1617674841303" duration="793000" />
-      <workItem from="1617675660282" duration="10742000" />
+      <workItem from="1617675660282" duration="12903000" />
+      <workItem from="1618112204023" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615721643853</created>
@@ -435,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617009856622</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HW week 5 commit">
+      <created>1618110042483</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618110042483</updated>
+    </task>
+    <task id="LOCAL-00017" summary="HW week 5 commit">
+      <created>1618110110375</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618110110375</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,6 +453,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="HW week 3 commit" />
     <MESSAGE value="HW week 4 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW week 4 commit" />
+    <MESSAGE value="HW week 5 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW week 5 commit" />
   </component>
 </project>

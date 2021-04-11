@@ -1,5 +1,4 @@
-package com.Lisiwu.week3.demo;//package com.Lisiwu.week3.demo;
-
+package com.Lisiwu.week3.demo;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -36,21 +35,21 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String Username=request.getParameter("username");
+        String username1=request.getParameter("username");
         String password=request.getParameter("password");
-        String Email=request.getParameter("email");
-        String Gender=request.getParameter("gender");
-        String Date=request.getParameter("birthDate");
+        String email1=request.getParameter("email");
+        String gender1=request.getParameter("gender");
+        String birthdate1=request.getParameter("birthdate");
 
         String sql1="insert into usertable values(?,?,?,?,?)";
         PreparedStatement pstmt= null;
         try {
             pstmt = con.prepareStatement(sql1);
-            pstmt.setString(1,Username);
+            pstmt.setString(1,username1);
             pstmt.setString(2,password);
-            pstmt.setString(3,Email);
-            pstmt.setString(4,Gender);
-            pstmt.setString(5,Date);
+            pstmt.setString(3,email1);
+            pstmt.setString(4,gender1);
+            pstmt.setString(5,birthdate1);
             pstmt.executeUpdate();
         } catch (SQLException throwables) {
             throwables.printStackTrace();

@@ -1,6 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="header.jsp"%>
-<body>
 <h1><%= "Welcome to my name page"%>
 </h1>
 <br/>
@@ -17,5 +16,4 @@
 <a href="index.jsp">include-week5</a>
 <br/>
 <a href="login.jsp">Login-week5</a>
-</body>
 <%@include file="footer.jsp"%>
