@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="2019211001000715lisiwu" />
+          <element id="module-output" name="a" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.microsoft.sqlserver:mssql-jdbc:8.2.1.jre8" />
@@ -20,7 +20,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="2019211001000715lisiwu/web/Web" />
+      <element id="javaee-facet-resources" facet="a/web/Web" />
     </root>
   </artifact>
 </component>
