@@ -23,8 +23,8 @@
                             border-style:solid;
                             border-top-width:0px;
                             border-color:black;" align="center">
-     <a style="color:white;" href="index.jsp">Home</a>
-   - <a style="color:white;" href="login.jsp">login</a>
+     <a style="color:white;" href="home">Home</a><!--request come to controller - HomeServlet-->
+   - <a style="color:white;" href="login">login</a><!--request come to controller - LoginServlet-->
    - <a style="color:white;" href="productList">Product</a>
    - <a style="color:white;" href="#">FAQ</a>
    - <a style="color:white;" href="#">About</a>

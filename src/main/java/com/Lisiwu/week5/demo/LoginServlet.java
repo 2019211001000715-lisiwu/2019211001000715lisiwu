@@ -1,6 +1,9 @@
 package com.Lisiwu.week5.demo;
 
 
+import com.Lisiwu.dao.userDao;
+import com.Lisiwu.model.user;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -8,7 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
 
-@WebServlet(name = "LoginServlet", value = "/LoginServlet")
+@WebServlet(name = "LoginServlet", value = "/login")
 public class LoginServlet extends HttpServlet {
     Connection con=null;
     @Override
@@ -29,6 +32,8 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+        //when user click login menu - request is get
+        request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
     }
 
     @Override
@@ -36,12 +41,35 @@ public class LoginServlet extends HttpServlet {
         String username=request.getParameter("username");
         String password=request.getParameter("password");
 
+        // now move jdbc code in dao - MVC design
+        //write mvc code
+        //user model and dao
+        userDao userDao=new userDao();
+        try {
+            user user=userDao.findByUsernamePassword(con,username,password);//this methods use for login
+            if (user!=null){
+                //valid
+                //set user into request
+                request.setAttribute("user",user);//get user info in jsp
+                request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request,response);
+            }else {
+                //invalid
+                request.setAttribute("message","username or password Error");
+                request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
+            }
+            //forward - JSP
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+
         response.setContentType("text/html");
         PrintWriter out=response.getWriter();
         out.println("<html>");
         out.println("<head><title>login</title></head>");
         out.println("<body>");
-        String sql="select * from usertable where  username=? and password=?";
+        /*String sql="select * from usertable where  username=? and password=?";
         PreparedStatement pstmt=null;
         try {
             pstmt=con.prepareStatement(sql);
@@ -69,7 +97,7 @@ public class LoginServlet extends HttpServlet {
             throwables.printStackTrace();
         }
         out.println("</body>");
-        out.println("</html>");
+        out.println("</html>");*/
     }
 
     @Override
