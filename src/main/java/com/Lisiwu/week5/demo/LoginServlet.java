@@ -48,9 +48,30 @@ public class LoginServlet extends HttpServlet {
         try {
             user user=userDao.findByUsernamePassword(con,username,password);//this methods use for login
             if (user!=null){
+                //Cookie c=new Cookie("sessionid",""+user.getId());
+                //c.setMaxAge(10*60);
                 //valid
                 //set user into request
-                request.setAttribute("user",user);//get user info in jsp
+                //response.addCookie(c);
+                String rememberMe=request.getParameter("rememberMe");
+                if (rememberMe!=null && rememberMe.equals("1")){
+                    Cookie usernameCookie=new Cookie("cUsername",user.getUsername());
+                    Cookie passwordCookie=new Cookie("cPassword",user.getPassword());
+                    Cookie rememberMeCookie=new Cookie("cRememberMe",rememberMe);
+
+                    usernameCookie.setMaxAge(5);
+                    passwordCookie.setMaxAge(5);
+                    rememberMeCookie.setMaxAge(5);
+                    response.addCookie(usernameCookie);
+                    response.addCookie(passwordCookie);
+                    response.addCookie(rememberMeCookie);
+                }
+
+
+                HttpSession session=request.getSession();
+                System.out.println("session id-->"+session.getId());
+                session.setMaxInactiveInterval(10);
+                session.setAttribute("user",user);//get user info in jsp
                 request.getRequestDispatcher("WEB-INF/views/userInfo.jsp").forward(request,response);
             }else {
                 //invalid
@@ -62,13 +83,11 @@ public class LoginServlet extends HttpServlet {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
-
-        response.setContentType("text/html");
+        /*response.setContentType("text/html");
         PrintWriter out=response.getWriter();
         out.println("<html>");
         out.println("<head><title>login</title></head>");
-        out.println("<body>");
+        out.println("<body>");*/
         /*String sql="select * from usertable where  username=? and password=?";
         PreparedStatement pstmt=null;
         try {

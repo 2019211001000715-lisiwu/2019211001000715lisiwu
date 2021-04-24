@@ -9,19 +9,20 @@
 <%@include file="header.jsp"%>
 <h1>User Info</h1>
 <%
-user user=(user) request.getAttribute("user");
+user u=(user) request.getAttribute("user");
 %>
-<%--<table>--%>
-<%--    <tr>--%>
-<%--        <td>username:</td><td><%=request.getAttribute("username")%></td>--%>
-<%--    </tr><tr>--%>
-<%--        <td>password:</td><td><%=request.getAttribute("password")%></td>--%>
-<%--    </tr><tr>--%>
-<%--        <td>email:</td><td><%=request.getAttribute("email")%></td>--%>
-<%--    </tr><tr>--%>
-<%--        <td>gender:</td><td><%=request.getAttribute("gender")%></td>--%>
-<%--    </tr><tr>--%>
-<%--        <td>birthdate:</td><td><%=request.getAttribute("birthdate")%></td>--%>
-<%--    </tr>--%>
-<%--</table>--%>
+<table>
+    <tr>
+        <td>username:</td><td><%=u.getUsername()%></td>
+    <tr></tr>
+        <td>password:</td><td><%=u.getPassword()%></td>
+    <tr></tr>
+        <td>email:</td><td><%=u.getEmail()%></td>
+    <tr></tr>
+        <td>gender:</td><td><%=u.getGender()%></td>
+    <tr></tr>
+        <td>birthdate:</td><td><%=u.getBirthdate()%></td>
+    </tr>
+</table>
+<a href="updateUser">Update</a>
 <%@include file="footer.jsp"%>
