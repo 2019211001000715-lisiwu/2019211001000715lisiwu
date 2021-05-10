@@ -32,7 +32,7 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+        request.getRequestDispatcher("WEB-INF/views/register.jsp").forward(request,response);
     }
 
 
@@ -63,9 +63,9 @@ public class RegisterServlet extends HttpServlet {
         out.println("<body>");
         out.println("<table>");
         out.println("<tr><td>ID</td><td>username</td><td>password</td><td>email</td><td>gender</td><td>birthdate</td></tr>");*/
-            String sql2 = "select * from usertable";
-            ResultSet rs = null;
-            rs = con.createStatement().executeQuery(sql2);
+            //String sql2 = "select * from usertable";
+            //ResultSet rs = null;
+            //rs = con.createStatement().executeQuery(sql2);
             /*while(rs.next()){
                 int id=rs.getInt("id");
                 String username=rs.getString("username");
@@ -79,7 +79,10 @@ public class RegisterServlet extends HttpServlet {
             //System.out.println("i am in RedirectServlet-->doPost()-->after forward()");
             //ok - done
             //after register a new user - user can login
-            response.sendRedirect("login.jsp");
+            //response.sendRedirect("login.jsp");
+
+            //week-9
+            response.sendRedirect("login");//LoginServlet
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
