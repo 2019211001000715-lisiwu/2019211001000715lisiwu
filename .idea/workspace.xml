@@ -15,16 +15,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 9 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/controller/AddProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/controller/ProductListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/IProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/addProduct.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 11 commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -338,7 +329,7 @@
       <workItem from="1618731006197" duration="317000" />
       <workItem from="1618751776411" duration="24000" />
       <workItem from="1618994665866" duration="23777000" />
-      <workItem from="1620548952414" duration="21367000" />
+      <workItem from="1620548952414" duration="21683000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615721643853</created>
@@ -543,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620646298567</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="HW week 11 commit">
+      <created>1621247354086</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621247354086</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,6 +571,7 @@
     <MESSAGE value="HW week 7 commit" />
     <MESSAGE value="HW week 8 commit" />
     <MESSAGE value="HW week 9 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW week 9 commit" />
+    <MESSAGE value="HW week 11 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW week 11 commit" />
   </component>
 </project>
