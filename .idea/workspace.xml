@@ -15,7 +15,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 11 commit" />
+    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 11 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -329,7 +331,7 @@
       <workItem from="1618731006197" duration="317000" />
       <workItem from="1618751776411" duration="24000" />
       <workItem from="1618994665866" duration="23777000" />
-      <workItem from="1620548952414" duration="22004000" />
+      <workItem from="1620548952414" duration="23403000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615721643853</created>
@@ -555,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621247553533</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="HW week 11 commit">
+      <created>1621250068977</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1621250068977</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
