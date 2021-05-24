@@ -2,11 +2,7 @@ package com.Lisiwu.dao;
 
 import com.Lisiwu.model.Product;
 
-import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -181,5 +177,17 @@ public class ProductDao implements  IProductDao{
             pro.add(product);
         }
         return pro;
+    }
+    public byte[] getPictureById(Integer productId,Connection con) throws SQLException{
+        byte[] imgByte=null;
+        String sql="select picture from Product where ProductId=?";
+        PreparedStatement pstmt=con.prepareStatement(sql);
+        pstmt.setInt(1,productId);
+        ResultSet rs=pstmt.executeQuery();
+        while(rs.next()){
+            Blob blob=rs.getBlob("picture");
+            imgByte=blob.getBytes(1,(int)blob.length());
+        }
+        return imgByte;
     }
 }
