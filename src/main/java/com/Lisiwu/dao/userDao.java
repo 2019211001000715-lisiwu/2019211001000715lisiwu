@@ -62,7 +62,7 @@ public class userDao implements IUserDao{
         st.setInt(1,id);
         ResultSet rs = st.executeQuery();
         user user = null;
-        if(rs.next()){
+        while (rs.next()){
             user = new user();
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
@@ -84,7 +84,7 @@ public class userDao implements IUserDao{
         st.setString(2,password);
         ResultSet rs= st.executeQuery();
         user user=null;
-        if (rs.next()){
+        while (rs.next()){
             //get from rs and set into user model
             user=new user();
             user.setId(rs.getInt("id"));
@@ -107,7 +107,7 @@ public class userDao implements IUserDao{
         ResultSet rs = st.executeQuery();
         user user = new user();
         List<user> list = new ArrayList<user>();
-        if(rs.next()){
+        while (rs.next()){
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
             user.setPassword(rs.getString("password"));
@@ -128,7 +128,7 @@ public class userDao implements IUserDao{
         ResultSet rs = st.executeQuery();
         user user = new user();
         List<user> list = new ArrayList<user>();
-        if(rs.next()){
+        while (rs.next()){
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
             user.setPassword(rs.getString("password"));
@@ -149,7 +149,7 @@ public class userDao implements IUserDao{
         ResultSet rs = st.executeQuery();
         user user = new user();
         List<user> list = new ArrayList<user>();
-        if(rs.next()){
+        while (rs.next()){
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
             user.setPassword(rs.getString("password"));
@@ -170,7 +170,7 @@ public class userDao implements IUserDao{
         ResultSet rs = st.executeQuery();
         user user = new user();
         List<user> list = new ArrayList<user>();
-        if(rs.next()){
+        while (rs.next()){
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
             user.setPassword(rs.getString("password"));
@@ -191,7 +191,7 @@ public class userDao implements IUserDao{
         ResultSet rs = st.executeQuery();
         user user = new user();
         List<user> list = new ArrayList<user>();
-        if(rs.next()){
+        while (rs.next()){
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
             user.setPassword(rs.getString("password"));
@@ -209,7 +209,7 @@ public class userDao implements IUserDao{
         ResultSet rs = con.createStatement().executeQuery(sql);
         user user = new user();
         List<user> list = new ArrayList<user>();
-        if(rs.next()){
+        while (rs.next()){
             user.setId(rs.getInt("id"));
             user.setUsername(rs.getString("username"));
             user.setPassword(rs.getString("password"));
