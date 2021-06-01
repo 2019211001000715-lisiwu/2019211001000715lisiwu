@@ -15,21 +15,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 12 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/controller/CartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/controller/UserListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="680f38e3-0307-4ebb-825b-c17526ec7e90" name="Default Changelist" comment="HW week 13 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/controller/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/IOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lab1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab1/assignment1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab1/assignment2/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab1/assignment2/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab1/assignment2/validate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lab1/assignment2/welcome.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Lisiwu/dao/userDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Lisiwu/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Lisiwu/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/classes/com/Lisiwu/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/classes/com/Lisiwu/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lisiwu2019211001000715-1.0-SNAPSHOT/WEB-INF/views/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -109,11 +108,17 @@
       <recent name="com.Lisiwu.week2.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\java\com\Lisiwu\dao" />
+      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\java\com" />
       <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\webapp" />
-      <recent name="C:\Users\武\IdeaProjects\a\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\武\IdeaProjects\a\src\main\java\com\Lisiwu\dao" />
+      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\webapp\WEB-INF\views\admin" />
+      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\java\com\Lisiwu\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\武\IdeaProjects\2019211001000715lisiwu\src\main\webapp\images\home" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.Lisiwu.dao" />
     </key>
   </component>
   <component name="RunManager">
@@ -350,7 +355,7 @@
       <workItem from="1621261369850" duration="391000" />
       <workItem from="1621261770512" duration="1203000" />
       <workItem from="1621383374895" duration="111000" />
-      <workItem from="1621844644606" duration="27315000" />
+      <workItem from="1621844644606" duration="33332000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1615721643853</created>
@@ -618,7 +623,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621868880365</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="HW week 13 commit">
+      <created>1622466178779</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1622466178779</updated>
+    </task>
+    <task id="LOCAL-00040" summary="HW week 13 commit">
+      <created>1622471840642</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1622471840642</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,6 +699,7 @@
     <MESSAGE value="HW week 9 commit" />
     <MESSAGE value="HW week 11 commit" />
     <MESSAGE value="HW week 12 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW week 12 commit" />
+    <MESSAGE value="HW week 13 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW week 13 commit" />
   </component>
 </project>
