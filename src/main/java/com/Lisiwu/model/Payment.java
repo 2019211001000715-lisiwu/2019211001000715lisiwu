@@ -10,7 +10,6 @@ import java.util.Set;
 
 
 
-
 /**
  * AbstractPayment entity provides the base persistence definition of the
  * Payment entity. @author MyEclipse Persistence Tools
